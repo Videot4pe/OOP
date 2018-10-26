@@ -1,0 +1,15 @@
+#ifndef _ERROR_
+#define _ERROR_
+
+typedef enum {
+    NO_ERROR,
+    FILE_CANNOT_BE_OPENED,
+    FILE_CONTAINS_INVALID_VALUES,
+    OBJECT_IS_NOT_INITIALISED,
+    RENDERING_ERROR,
+    SCENE_IS_NOT_INITIALISED,
+    ALLOCATION_ERROR,
+} error;
+
+#endif
+
